@@ -1,0 +1,1 @@
+let cardsQuantity = prompt("Com quantas cartas você deseja jogar? Por favor, informe um número par entre 2 e 14")

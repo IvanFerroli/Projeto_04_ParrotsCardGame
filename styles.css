@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+}
+.hidden{
+    display: none;
+}
+body{
+    background-color: #EEF9BF;
+    font-size: 36px;
+    font-family: roboto;
+    font-weight: bold;
+    font-style: normal;
+    color: #75B79E;
+}
+main{
+    
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    min-width: 34.64vw;
+    top: 150px;
+    left: 109.5px;
+    right: 109.5px;
+}
+header{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    top: 40px;
+    left: 3.43vw;
+    right: 3.43vw;
+}
+h1{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: -0.004em;
+    color: #75B79E;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 117px;
+    min-height: 146px;
+    border: 1px solid #99CEA8;
+    border-radius: 5px;
+    background-color: #A7E9AF; 
+    margin: 0px 17px 34px 17px;
+}
+.card img{
+    width: 100px;
+    height: 100px;
+}
+@media only screen and (min-width: 521px) {
+    h1{
+        font-size: 39px;
+    }
+    .container{
+        left: 93.86px;
+        right: 93.86px;  
+    }
+}
+@media only screen and (min-width: 672px) {
+    h1{
+        font-size: 42px;
+    }
+    .container{
+        left: 95.22px;
+        right: 95.22px;  
+    }
+}
+@media only screen and (min-width: 823px) {
+    h1{
+        font-size: 45px;
+    }
+    .container{
+        left: 96.58px;
+        right: 96.58px;  
+    }
+}
+@media only screen and (min-width: 974px) {
+    h1{
+        font-size: 48px;
+    }
+    .container{
+        left: 97.94px;
+        right: 97.94px;  
+    }
+}
+@media only screen and (min-width: 1125px) {
+    h1{
+        font-size: 51px;
+    }
+    .container{
+        left: 99.3px;
+        right: 99.3px;  
+    }
+}
+@media only screen and (min-width: 1276px) {
+    h1{
+        font-size: 56px;
+    }
+    .container{
+        left: 102px;
+        right: 102px;  
+    }
+}
