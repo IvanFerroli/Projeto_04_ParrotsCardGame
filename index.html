@@ -1,136 +1,142 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <title>Parrots Card Game</title>
 </head>
+
 <body>
-<header>
-    <h1>PARROT CARD GAME</h1>
-</header>
-<main>
-    <div class="container">
-        <div data-framework="bobrossparrot" id="card01" class="card bobrossparrot">
-            <div class="front-face face">
-                <img src="assets/front.png" alt="Front" />
+    <header>
+        <h1>PARROT CARD GAME</h1>
+    </header>
+    <main>
+        <div class="timer">0</div>
+        <div class="container">
+            <div data-framework="bobrossparrot" id="c1" class="card bobrossparrot">
+                <div class="front-face face">
+                    <img src="assets/front.png" alt="Front" />
+                </div>
+                <div class="back-face face">
+                    <img src="assets/bobrossparrot.gif" alt="bobrossparrot" />
+                </div>
             </div>
-            <div class="back-face face">
-                <img src="assets/bobrossparrot.gif" alt="bobrossparrot" />
+            <div data-framework="explodyparrot" id="c2" class="card explodyparrot">
+                <div class="front-face face">
+                    <img src="assets/front.png" alt="Front" />
+                </div>
+                <div class="back-face face">
+                    <img src="assets/explodyparrot.gif" alt="explodyparrot" />
+                </div>
+            </div>
+            <div data-framework="fiestaparrot" id="c3" class="card fiestaparrot">
+                <div class="front-face face">
+                    <img src="assets/front.png" alt="Front" />
+                </div>
+                <div class="back-face face">
+                    <img src="assets/fiestaparrot.gif" alt="fiestaparrot" />
+                </div>
+            </div>
+            <div data-framework="metalparrot" id="c4" class="card metalparrot">
+                <div class="front-face face">
+                    <img src="assets/front.png" alt="Front" />
+                </div>
+                <div class="back-face face">
+                    <img src="assets/metalparrot.gif" alt="metalparrot" />
+                </div>
+            </div>
+            <div data-framework="revertitparrot" id="c5" class="card revertitparrot">
+                <div class="front-face face">
+                    <img src="assets/front.png" alt="Front" />
+                </div>
+                <div class="back-face face">
+                    <img src="assets/revertitparrot.gif" alt="revertitparrot" />
+                </div>
+            </div>
+            <div data-framework="tripletsparrot" id="c6" class="card tripletsparrot">
+                <div class="front-face face">
+                    <img src="assets/front.png" alt="Front" />
+                </div>
+                <div class="back-face face">
+                    <img src="assets/tripletsparrot.gif" alt="tripletsparrot" />
+                </div>
+            </div>
+            <div data-framework="unicornparrot" id="c7" class="card unicornparrot">
+                <div class="front-face face">
+                    <img src="assets/front.png" alt="Front" />
+                </div>
+                <div class="back-face face">
+                    <img src="assets/unicornparrot.gif" alt="unicornparrot" />
+                </div>
+            </div>
+            <div data-framework="bobrossparrot" id="c1" class="card bobrossparrot">
+                <div class="front-face face">
+                    <img src="assets/front.png" alt="Front" />
+                </div>
+                <div class="back-face face">
+                    <img src="assets/bobrossparrot.gif" alt="bobrossparrot" />
+                </div>
+            </div>
+            <div data-framework="explodyparrot" id="c2" class="card explodyparrot">
+                <div class="front-face face">
+                    <img src="assets/front.png" alt="Front" />
+                </div>
+                <div class="back-face face">
+                    <img src="assets/explodyparrot.gif" alt="explodyparrot" />
+                </div>
+            </div>
+            <div data-framework="fiestaparrot" id="c3" class="card fiestaparrot">
+                <div class="front-face face">
+                    <img src="assets/front.png" alt="Front" />
+                </div>
+                <div class="back-face face">
+                    <img src="assets/fiestaparrot.gif" alt="fiestaparrot" />
+                </div>
+            </div>
+            <div data-framework="metalparrot" id="c4" class="card metalparrot">
+                <div class="front-face face">
+                    <img src="assets/front.png" alt="Front" />
+                </div>
+                <div class="back-face face">
+                    <img src="assets/metalparrot.gif" alt="metalparrot" />
+                </div>
+            </div>
+            <div data-framework="revertitparrot" id="c5" class="card revertitparrot">
+                <div class="front-face face">
+                    <img src="assets/front.png" alt="Front" />
+                </div>
+                <div class="back-face face">
+                    <img src="assets/revertitparrot.gif" alt="revertitparrot" />
+                </div>
+            </div>
+            <div data-framework="tripletsparrot" id="c6" class="card tripletsparrot">
+                <div class="front-face face">
+                    <img src="assets/front.png" alt="Front" />
+                </div>
+                <div class="back-face face">
+                    <img src="assets/tripletsparrot.gif" alt="tripletsparrot" />
+                </div>
+            </div>
+            <div data-framework="unicornparrot" id="c7" class="card unicornparrot">
+                <div class="front-face face">
+                    <img src="assets/front.png" alt="Front" />
+                </div>
+                <div class="back-face face">
+                    <img src="assets/unicornparrot.gif" alt="unicornparrot" />
+                </div>
             </div>
         </div>
-        <div data-framework="explodyparrot" id="card02" class="card explodyparrot">
-            <div class="front-face face">
-                <img src="assets/front.png" alt="Front" />
-            </div>
-            <div class="back-face face">
-                <img src="assets/explodyparrot.gif" alt="explodyparrot" />
-            </div>
-        </div>
-        <div data-framework="fiestaparrot" id="card03" class="card fiestaparrot">
-            <div class="front-face face">
-                <img src="assets/front.png" alt="Front" />
-            </div>
-            <div class="back-face face">
-                <img src="assets/fiestaparrot.gif" alt="fiestaparrot" />
-            </div>
-        </div>
-        <div data-framework="metalparrot" id="card04" class="card metalparrot">
-            <div class="front-face face">
-                <img src="assets/front.png" alt="Front" />
-            </div>
-            <div class="back-face face">
-                <img src="assets/metalparrot.gif" alt="metalparrot" />
-            </div>
-        </div>
-        <div data-framework="revertitparrot" id="card05" class="card revertitparrot">
-            <div class="front-face face">
-                <img src="assets/front.png" alt="Front" />
-            </div>
-            <div class="back-face face">
-                <img src="assets/revertitparrot.gif" alt="revertitparrot" />
-            </div>
-        </div>
-        <div data-framework="tripletsparrot" id="card06" class="card tripletsparrot">
-            <div class="front-face face">
-                <img src="assets/front.png" alt="Front" />
-            </div>
-            <div class="back-face face">
-                <img src="assets/tripletsparrot.gif" alt="tripletsparrot" />
-            </div>
-        </div>
-        <div data-framework="unicornparrot" id="card07" class="card unicornparrot">
-            <div class="front-face face">
-                <img src="assets/front.png" alt="Front" />
-            </div>
-            <div class="back-face face">
-                <img src="assets/unicornparrot.gif" alt="unicornparrot" />
-            </div>
-        </div>
-        <div data-framework="bobrossparrot" id="card01" class="card bobrossparrot">
-            <div class="front-face face">
-                <img src="assets/front.png" alt="Front" />
-            </div>
-            <div class="back-face face">
-                <img src="assets/bobrossparrot.gif" alt="bobrossparrot" />
-            </div>
-        </div>
-        <div data-framework="explodyparrot" id="card02" class="card explodyparrot">
-            <div class="front-face face">
-                <img src="assets/front.png" alt="Front" />
-            </div>
-            <div class="back-face face">
-                <img src="assets/explodyparrot.gif" alt="explodyparrot" />
-            </div>
-        </div>
-        <div data-framework="fiestaparrot" id="card03" class="card fiestaparrot">
-            <div class="front-face face">
-                <img src="assets/front.png" alt="Front" />
-            </div>
-            <div class="back-face face">
-                <img src="assets/fiestaparrot.gif" alt="fiestaparrot" />
-            </div>
-        </div>
-        <div data-framework="metalparrot" id="card04" class="card metalparrot">
-            <div class="front-face face">
-                <img src="assets/front.png" alt="Front" />
-            </div>
-            <div class="back-face face">
-                <img src="assets/metalparrot.gif" alt="metalparrot" />
-            </div>
-        </div>
-        <div data-framework="revertitparrot" id="card05" class="card revertitparrot">
-            <div class="front-face face">
-                <img src="assets/front.png" alt="Front" />
-            </div>
-            <div class="back-face face">
-                <img src="assets/revertitparrot.gif" alt="revertitparrot" />
-            </div>
-        </div>
-        <div data-framework="tripletsparrot" id="card06" class="card tripletsparrot">
-            <div class="front-face face">
-                <img src="assets/front.png" alt="Front" />
-            </div>
-            <div class="back-face face">
-                <img src="assets/tripletsparrot.gif" alt="tripletsparrot" />
-            </div>
-        </div>
-        <div data-framework="unicornparrot" id="card07" class="card unicornparrot">
-            <div class="front-face face">
-                <img src="assets/front.png" alt="Front" />
-            </div>
-            <div class="back-face face">
-                <img src="assets/unicornparrot.gif" alt="unicornparrot" />
-            </div>
-        </div>
-    </div>
-</main>
-<script src="script.js"></script> 
+    </main>
+    <script src="script.js"></script>
 </body>
+
 </html>
